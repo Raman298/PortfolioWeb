@@ -31,7 +31,7 @@
 
         .floating-shape {
             position: absolute;
-            background: linear-gradient(45deg,  #5b8cdb, #306792);
+            background: linear-gradient(45deg, #5b8cdb, #306792);
             border-radius: 50%;
             opacity: 0.1;
             animation: float 20s infinite ease-in-out;
@@ -104,7 +104,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            background: linear-gradient(45deg,  #5b8cdb, #306792);
+            background: linear-gradient(45deg, #5b8cdb, #306792);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -131,7 +131,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: linear-gradient(45deg,  #5b8cdb, #306792);
+            background: linear-gradient(45deg, #5b8cdb, #306792);
             transition: width 0.3s ease;
         }
 
@@ -245,7 +245,7 @@
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            background: linear-gradient(45deg,  #5b8cdb, #306792);
+            background: linear-gradient(45deg, #5b8cdb, #306792);
             margin: 0 auto 1rem;
             display: flex;
             align-items: center;
@@ -283,6 +283,22 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+        }
+
+        .social-links {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .social-icon {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: var(--secondary-color);
         }
 
         /* About Section */
